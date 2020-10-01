@@ -1,1 +1,2 @@
-# template-1
+# Plant Store Template
+

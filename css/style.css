@@ -1,0 +1,231 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16.5px;
+    color: rgb(43, 43, 43);
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #91B87B;
+}
+
+a:hover {
+    color: #C4FFA2;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #91B87B;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+iframe {
+    position: relative;
+    margin-top: 1em;
+}
+
+.page-section {
+    padding: 8em 0 0em 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.word-wrap {
+    padding: 4.5em 3em 4.5em 3em;
+}
+
+.section-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4em !important;
+    font-weight: bold;
+    text-align: center;
+    color: #91B87B;
+}
+
+.section-text {
+    font-size: 1em;
+}
+
+.section-wrap {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+ul.columns {
+    padding: 0;
+    list-style-type: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+.card-text {
+    font-size: 0.88em;
+}
+
+
+/* Navigation
+*****************************************/
+
+.navbar {
+    transition: all 0.5s;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.navbar-brand {
+    padding-top: 1em;
+    font-family: 'Playfair Display', serif;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.bg-custom {
+    background-color: #fff !important;
+}
+
+.navbar-brand.js-scroll-trigger {
+    padding: 0;
+    padding-left: 1em;
+}
+
+ul.navbar-nav {
+    padding-right: 1em;
+}
+
+
+/* Removes blue focus ring when dropdown is clicked */
+
+body:not(.user-is-tabbing) a:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+/* Scrolled */
+
+nav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    background-color: rgb(212, 252, 231)!important;
+    opacity: 0.95;
+}
+
+nav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+    color: #205f33;
+}
+
+nav.navbar-scrolled .navbar-brand {
+    color: #205f33 !important;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Collapse Menu */
+
+.navbar-collapse {
+    background-color: #bdc613;
+}
+
+
+/* change navbar background on collapse */
+
+@media (max-width: 768px) {
+    nav.collapsed {
+        height: 500px;
+    }
+}
+
+
+/***** Home nav only *****/
+
+#home-nav, #home-nav * {
+    background-color: transparent !important;
+}
+
+#home-nav.navbar-scrolled, #home-nav.navbar-scrolled {
+    background-color: rgb(243, 243, 243) !important;
+}
+
+
+/* Footer
+*****************************************/
+
+#footer {
+    width: 100%;
+    color: black;
+    padding: 0;
+    letter-spacing: -0.2px;
+    background-color: #1A4F2A;
+}
+
+#footer a {
+    color: black;
+}
+
+#footer a:hover {
+    color: rgb(212, 252, 231);
+    text-decoration: none;
+}
+
+.footer-info {
+    padding: 5em 3em 5em 3em;
+}
+
+.footer-header {
+    color: white !important;
+    font-size: 2em;
+}
+
+.contact-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.9em;
+}
+
+.logo-wrap {
+    min-width: 147px;
+}
+
+@media screen and (max-width: 770px) {
+    #footer {
+        text-align: center;
+    }
+    #footer ul {
+        list-style-position: inside;
+    }
+}
