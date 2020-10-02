@@ -48,6 +48,15 @@
     text-align: left !important;
 }
 
+@media screen and (max-width: 935px) {
+    .logo-box a.btn {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: center !important;
+    }
+}
+
 /* Favorites
 *****************************************/
 
@@ -85,16 +94,17 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #d2d9d850;
+    background-color: #d2d9d85d;
 }
 
-.container:hover .overlay {
+.thumbnail:hover .overlay {
     opacity: 1;
 }
 
 .thumbnail-text {
     color: #1A4F2A;
     font-size: 1.2em;
+    font-weight: 600;
     position: absolute;
     top: 50%;
     left: 50%;
