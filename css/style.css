@@ -22,11 +22,11 @@ body {
 }
 
 a {
-    color: #91B87B;
+    color: #9b3c19;
 }
 
 a:hover {
-    color: #C4FFA2;
+    color: #c26948;
     text-decoration: none;
 }
 
@@ -228,4 +228,19 @@ nav .navbar-nav .nav-item .nav-link:hover {
     #footer ul {
         list-style-position: inside;
     }
+}
+
+/* Credits
+*****************************************/
+
+#credits {
+    width: 100%;
+    color: #1A4F2A;
+    padding: 1.3em 0;
+    letter-spacing: -0.2px;
+    background-color: #ce9566;
+}
+
+#credits p {
+    margin: 0;
 }

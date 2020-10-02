@@ -5,7 +5,6 @@
     opacity: 0;
     background-color: white;
     background-image: url(../img/masthead2.jpg);
-
     background-size: cover;
     background-position: top;
     width: 100%;
@@ -49,13 +48,17 @@
     text-align: left !important;
 }
 
-
 /* Favorites
 *****************************************/
 
+#Favorites .thumbnail {
+    position: relative;
+    width: 100%;
+}
+
 #Favorites {
     background-color: #ce9b71;
-    padding: 3.5em 0;
+    padding: 3em 0;
 }
 
 #Favorites .section-text {
@@ -66,6 +69,40 @@
     color: #9b3c19;
 }
 
+.img-favorites {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d2d9d850;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.thumbnail-text {
+    color: #1A4F2A;
+    font-size: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 /* Who We Are
 *****************************************/
@@ -74,7 +111,7 @@
     background: url(../img/background.png) no-repeat center center;
     background-color: white;
     background-size: cover !important;
-    padding: 4em 0;
+    padding: 3.5em 0;
 }
 
 #whoWeAre h3 {
