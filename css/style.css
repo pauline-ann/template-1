@@ -235,9 +235,10 @@ nav .navbar-nav .nav-item .nav-link:hover {
 #credits {
     width: 100%;
     color: #1A4F2A;
-    padding: 1.3em 0;
+    padding: 1.3em 1em;
     letter-spacing: -0.2px;
     background-color: #ce9566;
+    text-align: center;
 }
 
 #credits p {
