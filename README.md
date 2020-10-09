@@ -6,9 +6,7 @@
 
 🌿 I created this website to practice my skill in web design and frontend development.
 
-🌿 Being a plant mom, I chose to develop a website describing a fictional plant store.
-
-🌿 I enjoy the aesthetic of online plant stores I've been seeing and was inspired to try to create my own!
+🌿 I enjoy the aesthetic of plant store websites I've been seeing and was inspired to try to create my own!
 
 ## Final Product
 
